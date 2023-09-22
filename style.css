@@ -1,40 +1,65 @@
-body {
-    text-align: center;
-    align-content: center;
-    list-style-position: inside;
+body { 
+    text-align: center; 
+    align-content: center; 
+    list-style-position: inside; 
 }
 
-h1, h2 {
-    background-color: lightblue;
-    border-radius: 5px;
-    padding: 8px 0 8px 0;
+h1, h2 { 
+    background-color: lightblue; 
+    border-radius: 5px; 
+    padding: 8px 0 8px 0; 
 }
 
-h2 {
-    width: 500px;
-    margin: 0 auto;
-    margin-top: 15px;
+h2 { 
+    width: 500px; 
+    margin: 0 auto; 
+    margin-top: 15px; 
 }
 
-button {
-    margin-right: 10px;
-    background-color: lightblue;
-    border-radius: 4px;
-    color: black;
-    border-color: transparent;
-    font-weight: bold;
-    padding: 5px 10px 5px 10px;
+a {
+
+background-color: lightblue;
+border-radius: 4px;
+color: black;
+border-color: transparent;
+font-weight: bold;
+width: 300px;
+transition-duration: 0.4s;
+
+
 
 }
 
-p {
-    width: 400px;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 10px;
+p { 
+    width: 400px; 
+    text-align: center; 
+    margin: 0 auto; 
+    margin-top: 10px; 
 }
 
-ul, ol {
-    text-align: left;
-    margin-left: 220px;
+.listContainer { 
+    display: flex; 
+    flex-direction: column;
+}
+
+.headerContainer, .recipeContainer { 
+    display: flex; 
+    justify-content: center;  
+    flex-wrap: wrap; 
+    align-content: stretch;
+
+}
+
+.headerContainer {
+
+}
+
+.headerItem { 
+    width: 100%; 
+}
+
+.recipeContainer { 
+    height: 100px;
+    gap: 10px; /* added this line */
+
 }
